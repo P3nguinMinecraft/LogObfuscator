@@ -17,7 +17,7 @@ Prevents console from acquiring information (IPs, coordinates) by looking at the
 
 **Replaces all parameters with `OBF_[param]` such as `OBF_X`**
 
-![login](https://raw.githubusercontent.com/P3nguinMinecraft/LogObfuscator/refs/heads/1.21.11/imgs/login.png)
+![join](https://raw.githubusercontent.com/P3nguinMinecraft/LogObfuscator/refs/heads/1.21.11/imgs/join.png)
 
 ### Command
 ##### `/logobfuscator`
