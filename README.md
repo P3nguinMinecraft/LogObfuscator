@@ -9,10 +9,10 @@ Prevents all user from acquiring information (IPs, coordinates) by looking at th
 
 ## Info
 **Currently patches:**
-- Player join `PlayerList:placeNewPlayer`
-- Named entity death `LivingEntity:die`
-- Villager death `Villager:die`
-- Villager struck by thunder `Villager:thunderHit`
+- Player join `PlayerList::placeNewPlayer`
+- Named entity death `LivingEntity::die`
+- Villager death `Villager::die`
+- Villager struck by thunder `Villager::thunderHit`
 - Create an issue report or contact me to patch other info!
 
 ### Command
