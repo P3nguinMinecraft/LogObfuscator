@@ -3,7 +3,7 @@ Hides sensitive information in log messages
 
 Modifies the log messages in the Minecraft log
 
-Prevents all user from acquiring information (IPs, coordinates) by looking at the Minecraft log
+Prevents console from acquiring information (IPs, coordinates) by looking at the Minecraft log
 
 <a href="https://modrinth.com/mod/log-obfuscator"><img alt="modrinth" height="40" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/available/modrinth_vector.svg"></a>
 
@@ -14,6 +14,8 @@ Prevents all user from acquiring information (IPs, coordinates) by looking at th
 - Villager death `Villager::die`
 - Villager struck by thunder `Villager::thunderHit`
 - Create an issue report or contact me to patch other info!
+
+**Replaces all parameters with `OBF_[param]` such as `OBF_X`**
 
 ### Command
 ##### `/logobfuscator`
