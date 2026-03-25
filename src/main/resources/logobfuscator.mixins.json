@@ -1,9 +1,11 @@
 {
     "required": true,
-    "package": "com.replaceme.mixin",
+    "package": "io.github.penguin.logobfuscator.mixin",
     "compatibilityLevel": "JAVA_21",
     "mixins": [
-
+        "LivingEntityMixin",
+        "PlayerListMixin",
+        "VillagerMixin"
     ],
     "injectors": {
         "defaultRequire": 1

@@ -1,26 +1,24 @@
 {
 	"schemaVersion": 1,
-	"id": "replaceme",
+	"id": "logobfuscator",
 	"version": "${version}",
-	"name": "Replace Me",
-	"description": "Replace Me",
+	"name": "Log Obfuscator",
+	"description": "Hides sensitive information in log messages",
 	"authors": [
+        "P3nguinMinecraft"
 		],
 	"contact": {
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/replaceme/icon.png",
+	"icon": "assets/logobfuscator/icon.png",
 	"environment": "*",
 	"entrypoints": {
         "main": [
-
-        ],
-		"client": [
-			"com.replaceme.ReplaceMe"
-		]
+            "io.github.penguin.logobfuscator.LogObfuscator"
+        ]
 	},
 	"mixins": [
-		"replaceme.mixins.json"
+        "logobfuscator.mixins.json"
 	],
     "depends": {
         "fabricloader": ">=${loader_version}",
@@ -31,5 +29,5 @@
 	"suggests": {
 		"another-mod": "*"
 	},
-	"accessWidener" : "replaceme.accesswidener"
+	"accessWidener" : "logobfuscator.accesswidener"
 }
