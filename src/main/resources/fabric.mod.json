@@ -9,7 +9,7 @@
 		],
 	"contact": {
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/logobfuscator/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -23,7 +23,7 @@
     "depends": {
         "fabricloader": ">=${loader_version}",
         "minecraft": ">=${minecraft_version}",
-        "java": ">=21",
+        "java": ">=25",
         "fabric-api": "*"
     },
 	"suggests": {
